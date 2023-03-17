@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0106F14529B5BCB9008A2135 /* ma_nav_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106F14429B5BCB9008A2135 /* ma_nav_iosApp.swift */; };
-		0106F14729B5BCB9008A2135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106F14629B5BCB9008A2135 /* ContentView.swift */; };
 		0106F14929B5BCBA008A2135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106F14829B5BCBA008A2135 /* Assets.xcassets */; };
 		0106F14C29B5BCBA008A2135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106F14B29B5BCBA008A2135 /* Preview Assets.xcassets */; };
 		0106F14E29B5BCBA008A2135 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106F14D29B5BCBA008A2135 /* Persistence.swift */; };
 		0106F15129B5BCBA008A2135 /* ma_nav_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0106F14F29B5BCBA008A2135 /* ma_nav_ios.xcdatamodeld */; };
+		01135DF529C4274000402AEC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01135DF429C4274000402AEC /* MainView.swift */; };
 		012CB92329C223C400399F45 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012CB92229C223C400399F45 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0106F14129B5BCB9008A2135 /* ma-nav-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ma-nav-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0106F14429B5BCB9008A2135 /* ma_nav_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ma_nav_iosApp.swift; sourceTree = "<group>"; };
-		0106F14629B5BCB9008A2135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0106F14829B5BCBA008A2135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0106F14B29B5BCBA008A2135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0106F14D29B5BCBA008A2135 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0106F15029B5BCBA008A2135 /* ma_nav_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ma_nav_ios.xcdatamodel; sourceTree = "<group>"; };
+		01135DF429C4274000402AEC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		012CB92229C223C400399F45 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0182E28729B6AC87005C99F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,12 +60,12 @@
 			children = (
 				0182E28729B6AC87005C99F8 /* Info.plist */,
 				0106F14429B5BCB9008A2135 /* ma_nav_iosApp.swift */,
-				0106F14629B5BCB9008A2135 /* ContentView.swift */,
 				0106F14829B5BCBA008A2135 /* Assets.xcassets */,
 				0106F14D29B5BCBA008A2135 /* Persistence.swift */,
 				0106F14F29B5BCBA008A2135 /* ma_nav_ios.xcdatamodeld */,
 				0106F14A29B5BCBA008A2135 /* Preview Content */,
 				012CB92229C223C400399F45 /* LoginView.swift */,
+				01135DF429C4274000402AEC /* MainView.swift */,
 			);
 			path = "ma-nav-ios";
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0106F14E29B5BCBA008A2135 /* Persistence.swift in Sources */,
-				0106F14729B5BCB9008A2135 /* ContentView.swift in Sources */,
 				0106F14529B5BCB9008A2135 /* ma_nav_iosApp.swift in Sources */,
 				012CB92329C223C400399F45 /* LoginView.swift in Sources */,
+				01135DF529C4274000402AEC /* MainView.swift in Sources */,
 				0106F15129B5BCBA008A2135 /* ma_nav_ios.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
